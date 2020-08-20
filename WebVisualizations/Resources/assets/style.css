@@ -1,0 +1,64 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+/* Create two equal columns that sits next to each other */
+.col-md-4 {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .img-thumbnail {
+    margin-top: 8px;
+    vertical-align: middle;
+    width:100px; 
+    height:80px;
+  }
+
+  /* Add an active class to highlight the current page */
+  .active {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+  }
+
+  /* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+    display: none;
+  }
+
+.col-md-8 {
+    border-style: solid;
+    padding-top: 20px;
+}
+
+.col-md-3 {
+    border-style: solid;
+    padding-top: 20px;
+    margin-left: 20px;
+    border-bottom-style: solid;
+}
+
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-thumbnail-active {
+    border-style: solid;
+    color: #4CAF50;
+    margin-top: 8px;
+    vertical-align: middle;
+    width:100px; 
+    height:80px;
+}
+
+.par-block {
+    border-style: solid;
+    color: black;
+    margin-top: 20px;
+}
