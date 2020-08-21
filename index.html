@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="WebVisualizations/Resources/assets/style.css">
 </head>
-<body>
+<body class="background-color">
 <!--Title Banner-->
     <div class="jumbotron jumbotron-center" style="margin-bottom:0">
         <h1>Weather by Latitude Project Overview</h1> 
@@ -58,9 +58,9 @@
                 <a target="_blank" href="WebVisualizations/Resources/assets/images/Fig1_lat_temp.png">
                 <img class="float-left" src="WebVisualizations/Resources/assets/images/Fig1_lat_temp.png" alt="Temperature map">
                 </a>
-                <p>This project was designed to answer the question: <em><b>"What is the weather like the closer we get to the equator?".</b></em>  To answer this question, the OpenWeatherMap API (https://openweathermap.org/api) was queried on the current weather conditions for 554 randomly selected cities around the globe on July 13, 2020 at approximately 9:00pm EDT.  For each city, the maximum daily temperature (F), % humdity, % cloudiness, and windspeed(mph) were returned along with the city's latitude and longitude coordinates.</p>
+                <p>This project was designed to answer the question: <em><b>"What is the weather like the closer we get to the equator?".</b></em>  The OpenWeatherMap API (https://openweathermap.org/api) was queried on the current weather conditions for 554 randomly selected cities around the globe on July 13, 2020 at approximately 9:00pm EDT.  For each city, the maximum daily temperature (F), % humidity, % cloudiness, and windspeed(mph) were returned along with the city's latitude and longitude coordinates.</p>
                 <br>
-                <p>The data was organized and processed using the Python Pandas library and Matplotlib was used to visualize the different types of weather data obtained with respect to latitude.  This site contains the raw data used in this analysis, the visualizations generated, along with brief descriptions and interpretions of the observed trends.
+                <p>The data was organized and processed using the Python Pandas library and Matplotlib was used to visualize the different types of weather data obtained with respect to latitude.  This site contains the raw data used in this analysis, the visualizations generated, along with brief descriptions and interpretations of the observed trends to answer the above question.
                 </p>
 
                 
@@ -71,19 +71,19 @@
                 <hr>
                 <div class="row">
                     <div class="col-sm-6">
-                        <a target="_blank" href="WebVisualizations/Resources/assets/pages/temperature.html">
+                        <a target="_blank" href="WebVisualizations/Resources/assets/images/Fig1_lat_temp.png">
                         <img src="WebVisualizations/Resources/assets/images/Fig1_lat_temp.png" alt="Temperature map" class="img-thumbnail">
                         </a> 
-                        <a target="_blank" href="WebVisualizations/Resources/assets/pages/humidity.html">
+                        <a target="_blank" href="WebVisualizations/Resources/assets/images/Fig2_lat_humidity.png">
                         <img src="WebVisualizations/Resources/assets/images/Fig2_lat_humidity.png" alt="Humidity map" class="img-thumbnail">
                         </a>
                    </div>
 
                     <div class="col-sm-6">
-                      <a target="_blank" href="WebVisualizations/Resources/assets/pages/cloudiness.html">
+                      <a target="_blank" href="WebVisualizations/Resources/assets/images/Fig3_lat_cloud.png">
                       <img src="WebVisualizations/Resources/assets/images/Fig3_lat_cloud.png" alt="Cloudiness map" class="img-thumbnail">
                       </a>
-                      <a target="_blank" href="WebVisualizations/Resources/assets/pages/windspeed.html">
+                      <a target="_blank" href="WebVisualizations/Resources/assets/images/Fig4_lat_wind.png">
                       <img src="WebVisualizations/Resources/assets/images/Fig4_lat_wind.png" alt="windspeed map" class="img-thumbnail">
                       </a>
                     </div>

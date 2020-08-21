@@ -33,6 +33,7 @@
     border: 4px;
     border-style: solid;
     padding-top: 20px;
+    background-color: white;
 }
 
 .col-md-3 {
@@ -41,6 +42,7 @@
     padding-top: 20px;
     margin-left: 20px;
     border-bottom-style: solid;
+    background-color: white;
 }
 
 
@@ -60,14 +62,29 @@
 }
 
 .par-block {
-    border-style: solid;
-    color: black;
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+.table {
+  width: 1000px;
+  table-layout: fixed;
+  border: 2px solid black;
+  padding: 50px;
+  margin: 20px;
+  background-color: white;
+  
+}
+
+.comparisons {
+  width: 1200px;
+  background-color: white;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .table-center {
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 .weather-par {
@@ -88,4 +105,29 @@
 
 .navbar {
   margin-bottom: 20px;
+}
+
+.background-color {
+  background-color: rgba(205, 205, 240, 0.582);
+}
+
+@media (max-width: 780px){
+  .background-color {
+    background-color: white;
+  }
+  .col-md-8 {
+    border: none;  
+  }
+
+  .col-md-3 {
+    border: none;
+  }
+
+  .comparisons {
+    width: auto;
+  }
+
+  .table {
+    width: auto;
+  }
 }
